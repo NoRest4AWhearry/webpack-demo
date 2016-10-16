@@ -1,0 +1,2 @@
+webpackJsonp([0,3],{0:function(e,t,n){n(1);var l=n(30);document.body.appendChild(l())},30:function(e,t){e.exports=function(){var e=document.createElement("h1");return e.innerHTML="Hello World, My Name is Allen",e.style.color="white",e.style.backgroundColor="#31abde",e.style.width="33vw",e.style.height=e.style.width,e.style.minWidth="100px",e.style.minHeight=e.style.minWidth,e}}});
+//# sourceMappingURL=app.3f61bd6b82e4f5583f02.js.map

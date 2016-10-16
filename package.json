@@ -4,6 +4,7 @@
   "description": "webpack demo from survivejs.com",
   "main": "index.js",
   "scripts": {
+    "stats": "webpack --profile --json > stats.json",
     "start": "webpack-dev-server",
     "build": "webpack"
   },

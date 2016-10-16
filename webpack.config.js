@@ -40,7 +40,8 @@ var config;
 
 // Detect how npm is run and branch based on that
 switch(process.env.npm_lifecycle_event) {
-  case 'build':
+	case 'build':
+  case 'stats':
     config = merge(
     	common,
     	{
@@ -83,4 +84,6 @@ switch(process.env.npm_lifecycle_event) {
     );
 }
 
-module.exports = validate(config);
+module.exports = validate(config, {
+	quite: true
+});
